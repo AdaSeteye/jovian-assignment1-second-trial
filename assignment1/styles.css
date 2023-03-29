@@ -21,6 +21,10 @@ margin-bottom: 30px;
 position: relative;
 }
 
+#hero-text2, #heading2{
+    text-align: left;
+}
+
 .hero-text{
 font-family: 'Poppins', sans-serif;
 font-weight: 400;
@@ -49,7 +53,7 @@ color: #331E6A;
 #hero-section{
     display: flex;
     max-width: 1060px;
-    margin: 0 auto;
+    margin: 0 0 0 auto;
 }
 #hero-left{
     width: 50%;
@@ -57,11 +61,15 @@ color: #331E6A;
 }
 #hero-right{
     width: 50%;
-    background-size: cover;
+    margin: 0;
+    /* background-size: cover; */
 }
 #image{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+     /* height: 600px; */
+
 }
 #hi{
     margin-top: 52px;
